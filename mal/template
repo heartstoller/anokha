@@ -1,0 +1,33 @@
+section .data
+    success_msg db "SUCCESS", 10
+    success_len equ $ - success_msg
+
+    failure_msg db "FAILURE", 10
+    failure_len equ $ - failure_msg
+
+section .text
+global _start
+
+_start:
+    ; Step 1: Load numbers
+    ; num1 = 15
+    ; num2 = 25
+    ; TODO: move values into registers
+
+    ; Step 2: Add the numbers
+    ; TODO: add registers
+
+    ; Step 3: Compare result with 40
+    ; TODO: cmp instruction
+
+    ; Step 4: Jump if result >= 40
+    ; TODO: conditional jump
+
+print_success:
+    ; TODO: write "SUCCESS" to stdout
+    ; TODO: exit program
+
+print_failure:
+    ; TODO: write "FAILURE" to stdout
+    ; TODO: exit program
+
